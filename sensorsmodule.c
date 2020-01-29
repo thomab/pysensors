@@ -235,6 +235,7 @@ static void add_constants(PyObject *module)
                             SENSORS_FEATURE_MAX_OTHER);
     PyModule_AddIntConstant(module, "FEATURE_BEEP_ENABLE",
                             SENSORS_FEATURE_BEEP_ENABLE);
+    PyModule_AddIntConstant(module, "FEATURE_FREQ", SENSORS_FEATURE_FREQ);
     PyModule_AddIntConstant(module, "FEATURE_UNKNOWN", SENSORS_FEATURE_UNKNOWN);
     PyModule_AddIntConstant(module, "SUBFEATURE_IN_INPUT",
                             SENSORS_SUBFEATURE_IN_INPUT);
@@ -365,6 +366,8 @@ static void add_constants(PyObject *module)
                             SENSORS_SUBFEATURE_INTRUSION_BEEP);
     PyModule_AddIntConstant(module, "SUBFEATURE_BEEP_ENABLE",
                             SENSORS_SUBFEATURE_BEEP_ENABLE);
+    PyModule_AddIntConstant(module, "SUBFEATURE_FREQ_INPUT",
+                            SENSORS_SUBFEATURE_FREQ_INPUT);
     PyModule_AddIntConstant(module, "SUBFEATURE_UNKNOWN",
                             SENSORS_SUBFEATURE_UNKNOWN);
 }
