@@ -265,6 +265,7 @@ Features
 .. attribute:: FEATURE_CURR
 .. attribute:: FEATURE_ENERGY
 .. attribute:: FEATURE_FAN
+.. attribute:: FEATURE_FREQ
 .. attribute:: FEATURE_HUMIDITY
 .. attribute:: FEATURE_IN
 .. attribute:: FEATURE_INTRUSION
@@ -305,6 +306,7 @@ Subfeatures
 .. attribute:: SUBFEATURE_FAN_INPUT
 .. attribute:: SUBFEATURE_FAN_MIN
 .. attribute:: SUBFEATURE_FAN_PULSES
+.. attribute:: SUBFEATURE_FREQ_INPUT
 .. attribute:: SUBFEATURE_HUMIDITY_INPUT
 .. attribute:: SUBFEATURE_INTRUSION_ALARM
 .. attribute:: SUBFEATURE_INTRUSION_BEEP
